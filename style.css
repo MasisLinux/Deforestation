@@ -1,0 +1,72 @@
+html,body {
+    overflow: hidden;
+    background: #66a266;
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%)
+    translateY(-50%);
+    z-index: 1;
+    animation: fadeIn 4s ease-in;
+}
+
+.card {
+    height: 550px;
+    width: 900px;
+    background: white;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    font-size: 70px;
+    font-family: tahoma;   
+}
+
+p,para1 {
+    top: 100px;
+    left: 150px;
+}
+
+p,para2 {
+    content: "";
+    top: 300px;
+}
+
+.leaves1 {
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    height: 700px;
+    width: 200px;
+    background-image: url(contact-leaves1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.leaves2 {
+    position: absolute;
+    height: 230px;
+    width: 500px;
+    top: 320px;
+    background-image: url(services-leaves5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.para1 {
+    padding: 160px 150px 0 50px;
+    font-size: 20px;
+}
+
+.para2 {
+    padding: 0 16px 0 130px;
+    font-size: 20px;
+}
